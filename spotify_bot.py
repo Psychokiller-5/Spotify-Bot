@@ -11,11 +11,11 @@ logger = logging.getLogger(__name__)
 
 def help(bot, update):
     print ("Help page selected")
-    bot.sendMessage(update.message.chat_id, text = "To search for a song on Spotify, just call the bot by typing @spotify_telegram_bot and then typing your query. Then, just select what category you would like to search under!")
+    bot.sendMessage(update.message.chat_id, text = "To search for a song on Spotify, just call the bot by typing @Spotify_yt_music_bot and then typing your query. Then, just select what category you would like to search under!")
 
 def about(bot, update):
     print ("About page selected")
-    bot.sendMessage(update.message.chat_id, text = "This bot has been created by GMCtree using Python and the Python Telegram Bot API created by the Python-Telegram-Bot Team")
+    bot.sendMessage(update.message.chat_id, text = "This bot has been created by psycho killer using Python and the Python Telegram Bot API created by the Python-Telegram-Bot Team")
 
 def get_thumbnail(response):
     # check if images exist for search query
